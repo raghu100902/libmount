@@ -27,6 +27,9 @@ fn main() {
         Ok(()) => {}
         Err(e) => {
             error!("{}", e);
+            
+            1
+            
             exit(1);
         }
     }
